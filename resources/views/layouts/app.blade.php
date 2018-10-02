@@ -37,7 +37,7 @@
 
         <nav role="navigation" class="probootstrap-nav hidden-xs">
           <ul class="probootstrap-main-nav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li class="active"><a href="{{ route('home') }}">Home</a></li>
             <li><a href="{{ route('projects') }}">Portfolio</a></li>
             <li><a href="{{ route('services') }}">Services</a></li>
             <li><a href="{{ route('about') }}">About</a></li>

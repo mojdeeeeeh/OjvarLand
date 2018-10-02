@@ -4,7 +4,7 @@
   <!-- END: header -->
   <section class="probootstrap-slider flexslider">
     <ul class="slides">
-      <li style="background-image: url(img/slider_2.jpg);" class="overlay2">
+      <li style="background-image: url('{{asset('template/img/slider_2.jpg') }}';" class="overlay2">
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
@@ -32,7 +32,7 @@
         <div class="col-md-4 probootstrap-animate">
           <div class="probootstrap-card with-hover">
             <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_1.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
+              <a href="single-page.html"><img src="{{asset('template/img/slider_1.jpg') }}" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
             </div>
             <div class="probootstrap-card-text">
               <h2 class="probootstrap-card-heading mb0">Vokalia and Consonantia</h2>
@@ -44,7 +44,7 @@
         <div class="col-md-4 probootstrap-animate">
           <div class="probootstrap-card with-hover">
             <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_2.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
+              <a href="single-page.html"><img src="{{asset('template/img/slider_2.jpg') }}" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
             </div>
             <div class="probootstrap-card-text">
               <h2 class="probootstrap-card-heading mb0">Live the Blind Texts</h2>
@@ -56,7 +56,7 @@
         <div class="col-md-4 probootstrap-animate">
           <div class="probootstrap-card with-hover">
             <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_3.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
+              <a href="single-page.html"><img src="{{asset('template/img/slider_3.jpg') }}" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
             </div>
             <div class="probootstrap-card-text">
               <h2 class="probootstrap-card-heading mb0">Behind the Word Mountains</h2>
@@ -69,7 +69,7 @@
         <div class="col-md-4 probootstrap-animate">
           <div class="probootstrap-card with-hover">
             <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_3.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
+              <a href="single-page.html"><img src="{{asset('template/img/slider_3.jpg') }}" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
             </div>
             <div class="probootstrap-card-text">
               <h2 class="probootstrap-card-heading mb0">Vokalia and Consonantia</h2>
@@ -81,7 +81,7 @@
         <div class="col-md-4 probootstrap-animate">
           <div class="probootstrap-card with-hover">
             <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_1.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
+              <a href="single-page.html"><img src="{{asset('template/img/slider_1.jpg') }}" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
             </div>
             <div class="probootstrap-card-text">
               <h2 class="probootstrap-card-heading mb0">Live the Blind Texts</h2>
@@ -93,7 +93,7 @@
         <div class="col-md-4 probootstrap-animate">
           <div class="probootstrap-card with-hover">
             <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_2.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
+              <a href="single-page.html"><img src="{{asset('template/img/slider_2.jpg') }}" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
             </div>
             <div class="probootstrap-card-text">
               <h2 class="probootstrap-card-heading mb0">Behind the Word Mountains</h2>
@@ -106,7 +106,7 @@
         <div class="col-md-4 probootstrap-animate">
           <div class="probootstrap-card with-hover">
             <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_1.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
+              <a href="single-page.html"><img src="{{asset('template/img/slider_1.jpg') }}" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
             </div>
             <div class="probootstrap-card-text">
               <h2 class="probootstrap-card-heading mb0">Vokalia and Consonantia</h2>
@@ -118,7 +118,7 @@
         <div class="col-md-4 probootstrap-animate">
           <div class="probootstrap-card with-hover">
             <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_2.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
+              <a href="single-page.html"><img src="{{asset('template/img/slider_2.jpg') }}" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
             </div>
             <div class="probootstrap-card-text">
               <h2 class="probootstrap-card-heading mb0">Live the Blind Texts</h2>
@@ -130,7 +130,7 @@
         <div class="col-md-4 probootstrap-animate">
           <div class="probootstrap-card with-hover">
             <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_3.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
+              <a href="single-page.html"><img src="{{asset('template/img/slider_3.jpg') }}" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
             </div>
             <div class="probootstrap-card-text">
               <h2 class="probootstrap-card-heading mb0">Behind the Word Mountains</h2>
@@ -143,7 +143,7 @@
         <div class="col-md-4 probootstrap-animate">
           <div class="probootstrap-card with-hover">
             <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_3.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
+              <a href="single-page.html"><img src="{{asset('template/img/slider_3.jpg') }}" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
             </div>
             <div class="probootstrap-card-text">
               <h2 class="probootstrap-card-heading mb0">Vokalia and Consonantia</h2>
@@ -155,7 +155,7 @@
         <div class="col-md-4 probootstrap-animate">
           <div class="probootstrap-card with-hover">
             <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_1.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
+              <a href="single-page.html"><img src="{{asset('template/img/slider_1.jpg') }}" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
             </div>
             <div class="probootstrap-card-text">
               <h2 class="probootstrap-card-heading mb0">Live the Blind Texts</h2>
@@ -167,7 +167,7 @@
         <div class="col-md-4 probootstrap-animate">
           <div class="probootstrap-card with-hover">
             <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_2.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
+              <a href="single-page.html"><img src="{{asset('template/img/slider_2.jpg') }}" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
             </div>
             <div class="probootstrap-card-text">
               <h2 class="probootstrap-card-heading mb0">Behind the Word Mountains</h2>
@@ -196,7 +196,7 @@
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
             </blockquote>
             <div class="author">
-              <img src="img/person_1.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Theme by uicookies.com">
+              <img src="{{asset('template/img/person_1.jpg') }}" class="img-responsive" alt="Free HTML5 Bootstrap Theme by uicookies.com">
               <div>John Doe <span>Designer at uicookies.com</span></div>
             </div>
           </div>
@@ -207,7 +207,7 @@
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
             </blockquote>
             <div class="author">
-              <img src="img/person_2.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Theme by uicookies.com">
+              <img src="{{asset('template/img/person_2.jpg') }}" class="img-responsive" alt="Free HTML5 Bootstrap Theme by uicookies.com">
               <div>John Doe <span>Designer at uicookies.com</span></div>
             </div>
           </div>
@@ -218,7 +218,7 @@
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
             </blockquote>
             <div class="author">
-              <img src="img/person_3.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Theme by uicookies.com">
+              <img src="{{asset('template/img/person_3.jpg') }}" class="img-responsive" alt="Free HTML5 Bootstrap Theme by uicookies.com">
               <div>John Doe <span>Designer at uicookies.com</span></div>
             </div>
           </div>
