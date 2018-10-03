@@ -42,6 +42,7 @@
             <li><a href="{{ route('services') }}">Services</a></li>
             <li><a href="{{ route('about') }}">About</a></li>
             <li><a href="{{ route('contact') }}">Contact</a></li>
+            <li><a href="{{ route('team.index') }}">Team</a></li>
           </ul>
           <ul class="probootstrap-right-nav hidden-xs">
             <li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -134,12 +135,13 @@
     <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
   </div>
 </div>
-
+  <script src="{{ asset('js/app.js') }}" defer></script>
   <script src="{{ asset('template/js/scripts.min.js') }}"></script>
   <script src="{{ asset('template/js/main.min.js') }}"></script>
   <script src="{{ asset('template/js/custom.js') }}"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="{{ asset('template/js/google-map.js') }}"></script>
+  {{-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="{{ asset('template/js/google-map.js') }}"></script> --}}
+
     @yield('scripts')
   </body>
 </html>
