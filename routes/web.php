@@ -16,15 +16,16 @@ Route::view('/about', 'about')->name('about');
 Route::view('/contact', 'contact')->name('contact');
 Route::view('/services', 'services')->name('services');
 Route::view('/projects', 'projects')->name('projects');
-
+Route::resources ([
+    'team'  => 'TeamController',
+]);
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-// new route
-// Route::view ('/main', 'main')
-//      ->name ('main');
-Route::resources ([
-    'team' => 'TeamController'
-]);
+//master
+Route::view('/master/home', 'master.home')->name('master');
+Route::view('/master/text', 'master.text')->name('text');
+Route::view('/master/posts', 'master.posts')->name('posts');
+Route::view('/master/members', 'master.members')->name('members');
